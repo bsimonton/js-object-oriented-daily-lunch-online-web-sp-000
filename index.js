@@ -1,2 +1,11 @@
 // global datastore
-let store = { neighborhoods: [], meals: [], customers: [], deliveries: [] };
+
+
+
+let store = {deliveries : [], meals: [], employers: [], customers: []};
+
+let deliveryId = 0; 
+
+
+
+
