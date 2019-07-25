@@ -100,5 +100,7 @@ class Delivery {
     
     return store.customers.find(customer => customer.id === this.customerId);
   }
+  
+  
 }
 
