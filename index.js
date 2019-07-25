@@ -51,10 +51,25 @@ class Customer {
     
     return this.deliveries().map(delivery => delivery.meal());
   }
-  
-
-  
 }
+
+
+class Meal {
+  
+  constructor(title, price){
+    this.title = title;
+    this.price = price;
+    this.id = ++mealId;
+    store.meals.push(this);
+  }
+
+
+
+
+
+
+}
+
 
 
 
