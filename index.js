@@ -101,6 +101,9 @@ class Delivery {
     return store.customers.find(customer => customer.id === this.customerId);
   }
   
-  
+   neighborhood(){
+     
+    return store.neighborhoods.find(neighborhood => neighborhood.id === this.neighborhoodId);
+  }
 }
 
