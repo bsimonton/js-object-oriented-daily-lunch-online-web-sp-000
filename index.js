@@ -12,7 +12,6 @@ let deliveryId = 0;
 
 
 class Neighborhood {
-  
   constructor(name){
     
     this.name = name;
@@ -30,11 +29,6 @@ class Neighborhood {
    
     return store.customers.filter(customer => customer.neighborhoodId === this.id);
   }
-
-
-
-
-
-
-
 }
+
+
