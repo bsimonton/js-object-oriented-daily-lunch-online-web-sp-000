@@ -95,7 +95,11 @@ customers(){
   }
 
 
- 
+ static byPrice() {
+    return store.meals.sort(function (a, b) {
+      return b.price - a.price;
+    });
+  }
 
 
 }
