@@ -29,6 +29,10 @@ class Neighborhood {
    
     return store.customers.filter(customer => customer.neighborhoodId === this.id);
   }
+  
+  
+  
+  
 }
 
 
