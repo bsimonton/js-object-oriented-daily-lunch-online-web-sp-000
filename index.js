@@ -85,7 +85,10 @@ class Delivery {
     store.deliveries.push(this);
   }
   
-  
+   meal(){
+     
+    return store.meals.filter(meal => meal.id === this.mealId);
+  }
   
 }
 
