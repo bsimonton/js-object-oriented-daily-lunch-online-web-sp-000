@@ -2,7 +2,7 @@
 
 
 
-let store = {deliveries : [], meals: [], employers: [], customers: [], neighborhoods: []};
+let store = {deliveries : [], meals: [], customers: [], neighborhoods: []};
 
 
 
