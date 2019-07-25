@@ -81,7 +81,7 @@ static byPrice() {
       
       return meal2.price > meal1.price;
     });
-  }
+}
 
 
 }
