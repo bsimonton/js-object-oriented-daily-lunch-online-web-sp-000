@@ -53,7 +53,11 @@ class Customer {
   }
   
   
-  
+  totalSpent(){
+    return this.meals().reduce(function (accumulator, meal){
+      return accumulator + meal.price;
+    }, 0);
+  } 
   
 }
 
