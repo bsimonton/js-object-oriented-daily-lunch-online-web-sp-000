@@ -95,7 +95,15 @@ customers(){
   }
 
 
-
+  meals() {
+    const mealList = this.deliveries().map(
+        function(delivery) {
+          return delivery.meal()
+        }
+      );
+    let uniqueMeals = Array.from(new Set(mealList));
+    return uniqueMeals
+  }
 
 
 }
